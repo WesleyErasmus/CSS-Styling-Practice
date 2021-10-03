@@ -1,0 +1,79 @@
+
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+}
+#HeadingText {
+    text-align: center;
+    color:goldenrod;
+    font-size: 150%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:black;
+    margin: 0px;
+}
+.Main{
+  
+}
+nav{
+  background-color: black;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 120%;
+  margin-top: opx;
+  margin-bottom: 10px;
+  padding: 20px;
+
+  
+}
+
+.nav-menu {
+  list-style-type: none;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  
+}
+li {
+  font-size: 150%;
+  margin: auto;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 100%;
+  border-style: outset;
+  padding: 15px;
+  border-radius: 5px;
+}
+/*the below style elements keep the links white after they are visited (a:link , a: visited , a: hover)*/
+a:link
+{
+    color:#FFFFFF;
+}
+a:visited
+{
+    color:#FFFFFF;
+}
+a:hover 
+{
+    color:#FFFFFF;
+}
+section {
+
+  border-radius: 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  }
+  div {
+    margin: 120px 50px 50px 50px;
+    border-radius: 20px;
+    border-style:outset;
+    padding: 20px;
+    width: 300px;
+  }
+footer {
+    background-color:white;
+    text-align: center;
+  }
